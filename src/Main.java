@@ -1,4 +1,5 @@
-import java.util.Scanner;
+import java.text.SimpleDateFormat;
+import java.util.*;
 
 public class Main {
     static void main() {
@@ -47,6 +48,60 @@ public class Main {
 //        System.out.println(first_name.substring(0,1)+"."+middle_name.substring(0,1)+"."+last_name);
 //        System.out.println("first name is "+first_name);
 //        System.out.println("Full name is "+first_name+" "+middle_name+" "+last_name);
+
+//        GregorianCalendar myCalander =new GregorianCalendar();
+//        myCalander.set(2003,6,20);
+//        System.out.println(myCalander.getTime());
+//        System.out.println(myCalander.get(Calendar.YEAR));
+//        System.out.println(myCalander.get(Calendar.MONTH));
+//        System.out.println(myCalander.get(Calendar.DATE));
+
+
+//        Scanner scanner = new Scanner(System.in);
+//
+//        System.out.println("Enter your year :");
+//        int year = scanner.nextInt();
+//
+//        System.out.println("Enter your month :");
+//        int month = scanner.nextInt();
+//
+//        System.out.println("Enter your date :");
+//        int date = scanner.nextInt();
+//
+//        GregorianCalendar myCalender = new GregorianCalendar();
+//        myCalender.set(year,month-1,date);
+//        System.out.println(myCalender.getTime());
+
+//        Date myDate = new Date();
+//        System.out.println(myDate);
+
+//        Date myDate = new Date();
+//        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd/MM/yyyy");
+//        System.out.println(simpleDateFormat.format(myDate));
+
+//        double num1 = 35.69;
+//        int num2= 25;
+//        int num3 =27;
+//        System.out.println(Math.round(num1));
+//        System.out.println(Math.floor(num1));
+//        System.out.println(Math.ceil(num1));
+//        System.out.println(Math.abs(num1));// absaloute value give
+//        System.out.println(Math.sqrt(num2));
+//        System.out.println(Math.cbrt(num3));
+
+//        System.out.println(Math.random() );
+//
+//        Random random = new Random();
+//        int randomNumber = random.nextInt();
+//        System.out.println(randomNumber);
+
+        Random random = new Random();
+        int randomNumber = random.nextInt(10 );
+        System.out.println(randomNumber);
+
+
+
+
 
 
 
