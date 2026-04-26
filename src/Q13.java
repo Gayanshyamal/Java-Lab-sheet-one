@@ -1,5 +1,20 @@
+import javax.swing.*;
+
 public class Q13 {
     public static void main(String[] args) {
-
+        JFrame myWindow = new JFrame();
+        myWindow.setSize(500,200);
+        myWindow.setTitle("UOK");
+        myWindow.setVisible(true);
+        try{
+            Thread.sleep(500);
+        }
+        catch (Exception e){}
+        myWindow.setVisible(false);
+        try {
+            Thread.sleep(1000);
+        }
+        catch (Exception e){}
+        myWindow.setVisible(true);
     }
 }
